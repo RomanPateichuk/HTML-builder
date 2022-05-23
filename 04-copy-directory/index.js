@@ -24,7 +24,6 @@ function clean_folder(url) {
 
         fs.unlink(path.join(copy_url, path.basename(file_url)), (err) => {
           if (err) throw err;
-          console.log("Файл успешно удалён");
         });
       });
     });
@@ -48,7 +47,6 @@ function gets_files(url) {
           path.join(copy_url, path.basename(file_url)),
           (err) => {
             if (err) throw err;
-            console.log("Файл успешно скопирован");
           }
         );
       });
