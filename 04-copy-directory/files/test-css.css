@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+}
+
+p {
+  color: black;
+}
+
 * {
   margin: unset;
 }
